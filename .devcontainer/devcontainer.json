@@ -1,0 +1,20 @@
+{
+  "name": "Waha-Agno-DEV",
+  "dockerComposeFile": "../compose.yml",
+  "service": "api",
+  "remoteUser": "whatsapp_agent",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/workspace/.venv/bin/python"
+      },
+      "extensions": [
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
+    }
+  }
+}
